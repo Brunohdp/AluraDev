@@ -1,0 +1,9 @@
+.menu_link {
+  color: var(--branco);
+  margin-left: 1rem;
+  text-decoration: none;
+}
+
+.comunidade {
+  opacity: 0.56;
+}

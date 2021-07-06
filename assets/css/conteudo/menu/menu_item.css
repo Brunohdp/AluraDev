@@ -1,6 +1,5 @@
 .menu_item{
   align-items: center;
   display: flex;
-  margin: 1rem auto;
-  width: auto;
+  margin-top: 1rem;
 }
