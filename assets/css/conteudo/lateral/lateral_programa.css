@@ -1,10 +1,9 @@
-.input_descricao_projeto{
+.lateral_programa {
   background-color: var(--cinza);
   border: 0;
   border-radius: 8px;
   box-sizing: border-box;
-  height: 80px;
-  margin-bottom: 2rem;
+  height: 56px;
   padding-left: 1rem;
   width: 100%;
 }

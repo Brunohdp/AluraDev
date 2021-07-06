@@ -27,6 +27,8 @@
   <link rel="stylesheet" href="assets/css/conteudo/lateral/input_nome_projeto.css">
   <link rel="stylesheet" href="assets/css/conteudo/lateral/input_descricao_projeto.css">
   <link rel="stylesheet" href="assets/css/conteudo/lateral/lateral_subtitulo.css">
+  <link rel="stylesheet" href="assets/css/conteudo/lateral/lateral_programa.css">
+  <link rel="stylesheet" href="assets/css/conteudo/lateral/lateral_cor.css">
   <link rel="stylesheet" href="assets/css/conteudo/lateral/button_salvar_projeto.css">
 </head>
 
@@ -34,7 +36,7 @@
   <header class="cabecalho">
     <div class="container">
       <h1 class="cabecalho_logo"><img src="assets/img/Header/Logo.svg" alt="Logotipo do AluraDev"></h1>
-      <input type="text" name="pesquisa" id="pesquisa" placeholder="Busque por algo">
+      <input type="search" name="pesquisa" id="pesquisa" placeholder="Busque por algo">
       <section class="perfil">
         <img src="assets/img/Header/Photo.svg" alt="Foto de Perfil" class="perfil_foto">
         <p class="nome">Harry</p>
@@ -56,7 +58,8 @@
         <input type="text" placeholder="Nome do seu projeto" class="input_nome_projeto">
         <input type="text" placeholder="Descrição do seu projeto" class="input_descricao_projeto">
         <p class="lateral_subtitulo">Personalização</p>
-        <input type="text" placeholder="Java">
+        <input type="text" placeholder="JavaScript" class="lateral_programa">
+        <input type="color" name="cor" id="lateral_cor">
         <button type="submit" class="button_salvar_projeto">Salvar projeto</button>
       </section>
     </div>

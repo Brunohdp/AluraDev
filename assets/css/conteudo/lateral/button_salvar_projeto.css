@@ -1,0 +1,7 @@
+.button_salvar_projeto {
+  background-color: var(--azul-claro);
+  border: 0;
+  border-radius: 8px;
+  height: 56px;
+  width: 100%;
+}

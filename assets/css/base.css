@@ -1,12 +1,13 @@
 :root {
+  --azul: #051D3B;
+  --azul-claro: #5081FB;
   --branco: #f2f2f2;
   --cinza: rgba(255, 255, 255, 0.16);
-  --cor-background: #051D3B;
   --fonte-corpo: "Inter", sans-serif;
 }
 
 body{
-  background-color: var(--cor-background);
+  background-color: var(--azul);
   color: var(--branco);
   font-family: var(--fonte-corpo);
 }
