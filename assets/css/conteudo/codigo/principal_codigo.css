@@ -1,0 +1,9 @@
+.principal_codigo {
+  align-items: center;
+  background-color: var(--ciano);
+  border-radius: 8px;
+  display: flex;
+  height: 366px;
+  justify-content: center;
+  width: 100%;
+}

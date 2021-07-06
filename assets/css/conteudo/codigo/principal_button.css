@@ -1,0 +1,8 @@
+.principal_button {
+  background-color: var(--azul-transparente);
+  border: 0;
+  border-radius: 8px;
+  color: var(--branco);
+  height: 56px;
+  margin-top: 2rem;
+}
