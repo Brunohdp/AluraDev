@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,12 +8,18 @@
   <title>AluraDev | Home</title>
   <link rel="stylesheet" href="assets/css/reset.css">
   <link rel="stylesheet" href="assets/css/normalize.css">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="assets/css/base.css">
   <link rel="stylesheet" href="assets/css/container.css">
   <link rel="stylesheet" href="assets/css/cabecalho/pesquisa.css">
   <link rel="stylesheet" href="assets/css/cabecalho/perfil.css">
+  <link rel="stylesheet" href="assets/css/conteudo/conteudo.css">
+  <link rel="stylesheet" href="assets/css/conteudo/menu.css">
+  <link rel="stylesheet" href="assets/css/conteudo/lista.css">
+  <link rel="stylesheet" href="assets/css/conteudo/item.css">
 </head>
+
 <body>
   <header class="cabecalho">
     <div class="container">
@@ -24,5 +31,31 @@
       </section>
     </div>
   </header>
+  <main class="conteudo">
+    <div class="container">
+      <nav class="menu">
+        <h2 class="menu_titulo">Menu</h2>
+        <ul class="lista">
+          <li class="item">
+            <img src="assets/img/Icon.svg" alt="icone de codigo">
+            <p>Editor de Código</p>
+          </li>
+          <li class="item">
+            <img src="assets/img/Icon (1).svg" alt="icone da comunidade">
+            <p>Comunidade</p>
+          </li>
+        </ul>
+      </nav>
+      <section class="lateral">
+        <p class="lateral_titulo">Seu projeto</p>
+        <input type="text" placeholder="Nome do seu projeto">
+        <input type="text" placeholder="Descrição do seu projeto">
+        <p class="lateral_subtitulo">Personalização</p>
+        <input type="text" placeholder="Java">
+        <button type="submit" class="salvar_projeto">Salvar projeto</button>
+      </section>
+    </div>
+  </main>
 </body>
+
 </html>
