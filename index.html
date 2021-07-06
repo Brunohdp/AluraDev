@@ -12,6 +12,8 @@
     rel="stylesheet">
   <link rel="stylesheet" href="assets/css/base.css">
   <link rel="stylesheet" href="assets/css/container.css">
+  <link rel="stylesheet" href="assets/css/cabecalho/cabecalho.css">
+  <link rel="stylesheet" href="assets/css/cabecalho/cabecalho_logo.css">
   <link rel="stylesheet" href="assets/css/cabecalho/pesquisa.css">
   <link rel="stylesheet" href="assets/css/cabecalho/perfil.css">
   <link rel="stylesheet" href="assets/css/conteudo/conteudo.css">
@@ -19,15 +21,21 @@
   <link rel="stylesheet" href="assets/css/conteudo/lista.css">
   <link rel="stylesheet" href="assets/css/conteudo/item.css">
   <link rel="stylesheet" href="assets/css/conteudo/item_descricao.css">
+  <link rel="stylesheet" href="assets/css/conteudo/lateral/conteudo_lateral.css">
+  <link rel="stylesheet" href="assets/css/conteudo/lateral/lateral_titulo.css">
+  <link rel="stylesheet" href="assets/css/conteudo/lateral/input_nome_projeto.css">
+  <link rel="stylesheet" href="assets/css/conteudo/lateral/input_descricao_projeto.css">
+  <link rel="stylesheet" href="assets/css/conteudo/lateral/lateral_subtitulo.css">
+  <link rel="stylesheet" href="assets/css/conteudo/lateral/button_salvar_projeto.css">
 </head>
 
 <body>
   <header class="cabecalho">
     <div class="container">
-      <h1 class="cabecalho__titulo"><img src="assets/img/Header/Logo.svg" alt="Logotipo do AluraDev"></h1>
+      <h1 class="cabecalho_logo"><img src="assets/img/Header/Logo.svg" alt="Logotipo do AluraDev"></h1>
       <input type="text" name="pesquisa" id="pesquisa" placeholder="Busque por algo">
       <section class="perfil">
-        <img src="assets/img/Header/Photo.svg" alt="Foto de Perfil">
+        <img src="assets/img/Header/Photo.svg" alt="Foto de Perfil" class="perfil_foto">
         <p class="nome">Harry</p>
       </section>
     </div>
@@ -48,13 +56,13 @@
         </ul>
       </nav>
 
-      <section class="lateral">
+      <section class="conteudo_lateral">
         <p class="lateral_titulo">Seu projeto</p>
-        <input type="text" placeholder="Nome do seu projeto">
-        <input type="text" placeholder="Descrição do seu projeto">
+        <input type="text" placeholder="Nome do seu projeto" class="input_nome_projeto">
+        <input type="text" placeholder="Descrição do seu projeto" class="input_descricao_projeto">
         <p class="lateral_subtitulo">Personalização</p>
         <input type="text" placeholder="Java">
-        <button type="submit" class="salvar_projeto">Salvar projeto</button>
+        <button type="submit" class="button_salvar_projeto">Salvar projeto</button>
       </section>
     </div>
   </main>

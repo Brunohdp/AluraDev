@@ -1,0 +1,7 @@
+.input_descricao_projeto{
+  background-color: var(--cinza);
+  border: 0;
+  border-radius: 8px;
+  height: 80px;
+  padding: 0 1rem;
+}

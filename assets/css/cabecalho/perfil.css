@@ -1,6 +1,10 @@
-.perfil{
+.perfil {
   align-items: center;
   display: flex;
-  justify-content: space-between;
-  width: 6.5%;
+  justify-content: flex-end;
+  width: 11%;
+}
+
+.nome {
+  margin-left: 1rem;
 }
