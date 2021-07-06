@@ -1,5 +1,6 @@
 :root {
   --branco: #f2f2f2;
+  --cinza: rgba(255, 255, 255, 0.16);
   --cor-background: #051D3B;
   --fonte-corpo: "Inter", sans-serif;
 }
