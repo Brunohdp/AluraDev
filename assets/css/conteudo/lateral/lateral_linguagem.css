@@ -1,8 +1,9 @@
-.lateral_programa {
+.lateral_linguagem {
   background-color: var(--cinza);
   border: 0;
   border-radius: 8px;
   box-sizing: border-box;
+  color: var(--cinza-claro);
   height: 56px;
   padding-left: 1rem;
   width: 100%;

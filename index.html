@@ -27,7 +27,7 @@
   <link rel="stylesheet" href="assets/css/conteudo/lateral/input_nome_projeto.css">
   <link rel="stylesheet" href="assets/css/conteudo/lateral/input_descricao_projeto.css">
   <link rel="stylesheet" href="assets/css/conteudo/lateral/lateral_subtitulo.css">
-  <link rel="stylesheet" href="assets/css/conteudo/lateral/lateral_programa.css">
+  <link rel="stylesheet" href="assets/css/conteudo/lateral/lateral_linguagem.css">
   <link rel="stylesheet" href="assets/css/conteudo/lateral/lateral_cor.css">
   <link rel="stylesheet" href="assets/css/conteudo/lateral/button_salvar_projeto.css">
 </head>
@@ -58,8 +58,14 @@
         <input type="text" placeholder="Nome do seu projeto" class="input_nome_projeto">
         <input type="text" placeholder="Descrição do seu projeto" class="input_descricao_projeto">
         <p class="lateral_subtitulo">Personalização</p>
-        <input type="text" placeholder="JavaScript" class="lateral_programa">
-        <input type="color" name="cor" id="lateral_cor">
+        <select name="linguagens" class="lateral_linguagem">
+          <option>JavaScript</option>
+          <option>Java</option>
+          <option>Python</option>
+          <option>C++</option>
+          <option>C#</option>
+        </select>
+        <input type="color" name="cor" class="lateral_cor">
         <button type="submit" class="button_salvar_projeto">Salvar projeto</button>
       </section>
     </div>

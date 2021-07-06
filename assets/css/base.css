@@ -2,6 +2,7 @@
   --azul: #051D3B;
   --azul-claro: #5081FB;
   --branco: #f2f2f2;
+  -cinza-claro: rgba(255, 255, 255, 0.64);
   --cinza: rgba(255, 255, 255, 0.16);
   --fonte-corpo: "Inter", sans-serif;
 }
